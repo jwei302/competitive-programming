@@ -23,8 +23,8 @@ set autoread
 set nowrap
 
 set cmdheight=2
-map <F1> :<C-U>!g++ -O2 -DLOCAL -std=c++14 -Wall -Wextra -Wno-unused-result -static %:r.cpp -o %:r<CR>
-map <F2> :<C-U>!%:r<CR>
+map <F1> :<C-U>!clear; g++ -o  %:r.out % -std=c++14<Enter>
+map <F2> :<C-U>!clear; ./%:r.out<Enter>
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
@@ -71,11 +71,4 @@ function MyDiff()
 	let &shellxquote=l:shxq_sav
   endif
 endfunction
-
-call plug#begin()
-	Plug 'scrooloose/nerdtree'
-	Plug 'flazz/vim-colorschemes'
-	Plug 'preservim/nerdcommenter'
-call plug#end()
-
-map <C-n> :NERDTree
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
