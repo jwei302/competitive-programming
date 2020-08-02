@@ -25,7 +25,7 @@ typedef vector<vb> vbb;
 typedef vector<vc> vcc;
 typedef vector<vs> vss;
 
-#define mp make_pair
+#define mp make_pair 
 #define f first
 #define s second	
 #define sz(x) (int)(x).size()
