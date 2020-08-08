@@ -5,6 +5,8 @@ set hls
 set is
 set si
 
+colorscheme morning
+
 set nocompatible
 set exrc
 set mouse=a
@@ -23,7 +25,7 @@ set autoread
 set nowrap
 
 set cmdheight=2
-map <F1> :<C-U>!clear; g++ -o  %:r.out % -std=c++14<Enter>
+map <F1> :<C-U>!clear; g++ -o  %:r.out % -std=c++17<Enter>
 map <F2> :<C-U>!clear; ./%:r.out<Enter>
 
 inoremap { {}<Left>
