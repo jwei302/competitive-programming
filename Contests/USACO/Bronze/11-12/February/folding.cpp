@@ -88,7 +88,7 @@ int n, l, x;
 vb rope(mxN+1);
 
 int main(){
-	setIO();
+	setIO("folding");
 	read(n, l);
 	FOR(i, n){
 		read(x);
