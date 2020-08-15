@@ -29,7 +29,7 @@ typedef vector<vs> vss;
 #define s second	
 #define sz(x) (int)(x).size()
 #define all(x) (x).begin(), (x).end()
-#define rall(a) (x).rbegin(), (x).readnd()
+#define rall(a) (x).rbegin(), (x).rend()
 #define rsz readsize
 #define ins insert
 #define cnt count
@@ -82,6 +82,6 @@ void setIO(str s= ""){
 }
 
 int main(){
-
+	setIO();
 	return 0;
 }
