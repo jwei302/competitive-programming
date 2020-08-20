@@ -11,7 +11,7 @@ Atcoder: https://atcoder.jp/home
 
 Bigger Contests:
 
-Google Code Jam, Google Kickstart, Google Hash Code, Facebook Hackercup, Codechef Snackdown
+USACO, Google Code Jam, Google Kickstart, Google Hash Code, Facebook Hackercup, Codechef Snackdown
 
 Problem Sets:
 
