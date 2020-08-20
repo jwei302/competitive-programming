@@ -9,6 +9,10 @@ Codechef: https://www.codechef.com/
 
 Atcoder: https://atcoder.jp/home
 
+Bigger Contests:
+
+Google Code Jam, Google Kickstart, Google Hash Code, Facebook Hackercup, Codechef Snackdown
+
 Problem Sets:
 
 Competitive Programming 4 UVA OJ Starred Problems: https://uhunt.onlinejudge.org/
