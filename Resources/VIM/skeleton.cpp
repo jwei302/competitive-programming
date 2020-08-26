@@ -17,6 +17,7 @@ typedef vector<char> vc;
 typedef vector<bool> vb;
 typedef vector<str> vs;
 typedef vector<pi> vpi;
+typedef vector<pl> vpl;
 typedef vector<pd> vpd;
 typedef vector<vi> vii;
 typedef vector<vl> vll;
@@ -29,17 +30,21 @@ typedef vector<vs> vss;
 #define s second	
 #define sz(x) (int)(x).size()
 #define all(x) (x).begin(), (x).end()
-#define rall(a) (x).rbegin(), (x).rend()
-#define rsz readsize
+#define rall(x) (x).rbegin(), (x).rend()
+#define part(x, n) (x).begin(), (x).begin()+n
+#define rpart(x, n) (x).rbegin(), (x).rbegin()+n
+#define rsz resize
 #define ins insert
 #define cnt count
-#define ft front()
+#define fr front()
 #define bk back()
 #define pf push_front
 #define pb push_back
 #define eb emplace_back
 #define lb lower_bound
 #define ub upper_bound
+
+#define LSOne(S) ((S)&-(S))
 
 #define F0R(i, a, b) for(int i = (a); i < (b); ++i)
 #define FOR(i, a) F0R(i, 0, a)
