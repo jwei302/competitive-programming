@@ -1,4 +1,4 @@
-# CompetitiveProgramming
+# Competitive Programming
 Everything that I have for competitive programming. 
 
 Main Contests:
