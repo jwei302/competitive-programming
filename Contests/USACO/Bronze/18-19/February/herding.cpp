@@ -88,6 +88,8 @@ void setIO(str s= ""){
 	if(sz(s)) { setIn(s+".in"), setOut(s+".out");}
 }
 
+//Case work for the minimum, and the maximum is maximum gap between two cows minus 1
+
 int main(){
 	setIO("herding");
 	vi pos(3);
