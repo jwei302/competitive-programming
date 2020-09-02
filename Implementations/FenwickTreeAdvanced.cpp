@@ -16,16 +16,16 @@ class FenwickTree{
 		FenwickTree(const vl &f){
 			build(f);
 		}
-		ll rsq(int j){
+		ll qry(int j){
 			ll sum=0;
 			for(; j; j-=LSOne(j))
 				sum+=ft[j];
 			return sum;
 		}
-		ll rsq(int i, int j){
-			return rsq(j)-rsq(i-1);
+		ll qry(int i, int j){
+			return qry(j)-qry(i-1);
 		}
-		void update(int i, ll v){
+		void upd(int i, ll v){
 			for(; i<sz(ft); i+=LSOne(i))
 				ft[i]+=v;
 		}
@@ -33,7 +33,7 @@ class FenwickTree{
 			int lb=0, rb=sz(ft)-1;
 			FOR(i, 30){
 				int mid = (lb+rb)/2;
-				(rsq(1, mid)<k)?lb=mid:rb=mid;
+				(qry(1, mid)<k)?lb=mid:rb=mid;
 			}
 			return rb;
 		}
@@ -44,12 +44,12 @@ class RUPQ{
 		FenwickTree ft;
 	public:
 		RUPQ(int m): ft(FenwickTree(m)) {}
-		void range_update(int i, int j, int v){
-			ft.update(i, v);
-			ft.update(j+1, -v);
+		void rng_upd(int i, int j, int v){
+			ft.upd(i, v);
+			ft.upd(j+1, -v);
 		}
-		ll point_query(int i){
-			return ft.rsq(i);
+		ll pt_qry(int i){
+			return ft.qry(i);
 		}
 };
 
@@ -59,15 +59,15 @@ class RURQ{
 		FenwickTree purq;
 	public:
 		RURQ(int m): rupq(RUPQ(m)), purq(FenwickTree(m)) {}
-		void range_update(int i, int j, int v){
-			rupq.range_update(i, j, v);
-			purq.update(i, v*(i-1));
-			purq.update(j+1, -v*j);
+		void rng_upd(int i, int j, int v){
+			rupq.rng_upd(i, j, v);
+			purq.upd(i, v*(i-1));
+			purq.upd(j+1, -v*j);
 		}
-		ll rsq(int j){
-			return rupq.point_query(j)*j-purq.rsq(j);
+		ll qry(int j){
+			return rupq.pt_qry(j)*j-purq.qry(j);
 		}
-		ll rsq(int i, int j){
-			return rsq(j)-rsq(i-1);
+		ll qry(int i, int j){
+			return qry(j)-qry(i-1);
 		}
 };
