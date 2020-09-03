@@ -88,6 +88,8 @@ void setIO(str s= ""){
 	if(sz(s)) { setIn(s+".in"), setOut(s+".out");}
 }
 
+//Notice that the station that can be reached from every other station should not be a starting station
+
 int main(){
 	setIO("factory");
 	int n;
