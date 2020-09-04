@@ -7,6 +7,6 @@ ll qry(int j){
 	return sum;
 }
 void upd(int i, ll v){
-	for(; i < n; i+=LSOne(i))
+	for(; i <= n; i+=LSOne(i))
 		ft[i]+=v;
 }
