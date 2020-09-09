@@ -1,12 +1,12 @@
-vl ft(mxN+1);
+ll ft[mxN+1];
 
-ll qry(int j){
+ll qry(int i){
 	ll sum = 0;
-	for(; j; j-=LSOne(j))
-		sum += ft[j];
+	for(; i; i-= i&-i)
+		sum += ft[i];
 	return sum;
 }
 void upd(int i, ll v){
-	for(; i <= n; i+=LSOne(i))
+	for(; i < N; i+=i&-i)
 		ft[i]+=v;
 }
