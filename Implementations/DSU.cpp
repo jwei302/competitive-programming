@@ -1,7 +1,7 @@
-struct UnionFind{
+struct DSU{
 	vector<int> parent, rank, setSize;
 	int numSets;
-	UnionFind(int N){
+	DSU(int N){
 		parent.assign(N, 0);
 		for(int i = 0; i < N; ++i){
 			parent[i] = i;
