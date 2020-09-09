@@ -1,38 +1,40 @@
-class UnionFind {
-	private:
-		vi parent, rank, setSize;
-		int numSets;
-	public:
-		UnionFind(int N){
-			p.assign(N, 0);
-			FOR(i, N)
-				p[i]=i;
-			rank.assign(N, 0);
-			setSize.assign(N, 1);
-			numSets = N;
+struct UnionFind{
+	vector<int> parent, rank, setSize;
+	int numSets;
+	UnionFind(int N){
+		parent.assign(N, 0);
+		for(int i = 0; i < N; ++i){
+			parent[i] = i;
 		}
-		int findSet(int i){
-			return p[i]==i?i:p[i]=findSet(p[i]);
+		rank.assign(N, 0);
+		setSize.assign(N, 1);
+		numSets = N;
+	}
+	int find(int i){
+		return parent[i] == i ? i : parent[i] = find(parent[i]);
+	}
+	bool same(int i, int j){
+		return find(i)==find(j);
+	}
+	int count(int i){
+		return numSets;
+	}
+	int size(int i){
+		return setSize[find(i)];
+	}
+	void unionSet(int i, int j){
+		if(same(i, j)){
+			return;
 		}
-		bool isSameSet(int i, int j){
-			return findSet(i)==findSet(j);
+		int x = find(i), y = find(j);
+		if(rank[x]>rank[y]){
+			swap(x, y);
 		}
-		int numDisjointSets(int i){
-			return numSets;
+		parent[x] = y;
+		if(rank[x] == rank[y]){
+			++rank[y];
 		}
-		int sizeOfSet(int i){
-			return setSize[findSet(i)];
-		}
-		void unionSet(int i, int j){
-			if(isSameSet(i, j))
-				return;
-			int x = findSet(i), y = findSet(j);
-			if(rank[x]>rank[y])
-				swap(x, y);
-			parent[x] = y;
-			if(rank[x]==rank[y])
-				++rank[y];
-			setSize[y]+=setSize[x];
-			--numSets;
-		}
+		setSize[y] += setSize[x];
+		--numSets;
+	}
 };
