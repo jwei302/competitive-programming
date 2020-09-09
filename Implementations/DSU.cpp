@@ -16,7 +16,7 @@ struct DSU{
 	bool same(int i, int j){
 		return find(i)==find(j);
 	}
-	int count(int i){
+	int count(){
 		return numSets;
 	}
 	int size(int i){
