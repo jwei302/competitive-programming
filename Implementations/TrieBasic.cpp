@@ -9,7 +9,7 @@ struct Trie{
 	}
 };
 
-void insert(Trie* root, string s){
+void put(Trie* root, string s){
 	for(int i = 0; i < (int)s.length(); ++i){
 		if(root->child[s[i]-'a'] == nullptr){
 			root->child[s[i]-'a'] = new Trie();
