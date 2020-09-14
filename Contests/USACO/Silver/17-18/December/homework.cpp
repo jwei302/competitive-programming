@@ -4,9 +4,13 @@ using namespace std;
 #define ll long long
 
 const int mxN = 1e5;
-int N, a[mxN];
+ll N, a[mxN];
 
 //prefix sums
+
+bool cmp(pair<pair<ll, ll>, ll> a, pair<pair<ll,ll>, ll> b){
+	return a.first.first*b.first.second>a.first.second*b.first.first;
+}
 
 int main(){
 	ifstream cin("homework.in");
@@ -18,25 +22,28 @@ int main(){
 	for(int i = 1; i < N; ++i){
 		a[i] += a[i-1];
 	}
-	vector<pair<double, int>> ans;
+	vector<pair<pair<ll, ll>, ll>> ans;
 	for(int i = 0; i < N-2; ++i){
-		ans.push_back({(double)(a[N-1]-a[i])/(double)(N-1-i), i+1});
+		ans.push_back({{a[N-1]-a[i], N-i-1}, i+1});
 	}
-	sort(ans.rbegin(), ans.rend());
+	sort(ans.begin(), ans.end(), cmp);
+	pair<ll, ll> best = ans[0].first;
+	bool first = 1;
 	for(int i = 0; i < (int)ans.size(); ++i){
-		if(i==0){
-			cout << ans[i].second;
-		}
-		else{
-			if(ans[i].first==ans[0].first){
-				cout << " " << ans[i].second;
+		if(best.first*ans[i].first.second==best.second*ans[i].first.first){
+			if(first){
+				cout << ans[i].second;
+				first = 0;
 			}
 			else{
-				cout << '\n';
-				break;
-			}
+				cout << " " << ans[i].second;
+			}			
 		}
-	}	
+		else{
+			break;
+		}
+	}
+	cout << '\n';
 	return 0;
 }
 
