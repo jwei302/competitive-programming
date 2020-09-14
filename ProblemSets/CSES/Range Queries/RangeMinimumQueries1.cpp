@@ -71,7 +71,7 @@ template<class A> void read(complex<A>& c) { A a,b; read(a,b); c = {a,b}; }
 template<class A, class B> void read(pair<A,B>& p) { read(p.f,p.s); }
 template<class A> void read(vector<A>& x) { trav(a,x) read(a); }
 template<class A, size_t SZ> void read(array<A,SZ>& x) { trav(a,x) read(a); }
-
+ 
 //output
 template<class A> void print(A x) { cout << (x); }
 template<class H, class... T> void print(const H& h, const T&... t) {
