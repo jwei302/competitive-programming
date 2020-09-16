@@ -27,3 +27,5 @@ CP4 UVA OJ Starred Problems: https://uhunt.onlinejudge.org/
 CSES: https://cses.fi/problemset/list/
 
 USACO Training Pages https://train.usaco.org/
+
+Resources: https://usaco.guide/
