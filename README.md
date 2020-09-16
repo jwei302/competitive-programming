@@ -14,12 +14,16 @@ Topcoder: https://www.topcoder.com/
 
 Bigger Contests:
 
-USACO, Google Code Jam, Google Kickstart, Google Hash Code, Facebook Hackercup, Codechef Snackdown
+USACO http://www.usaco.org/index.php
+
+Google Code Jam, Google Kickstart, Google Hash Code https://codingcompetitions.withgoogle.com/
+
+Facebook Hackercup https://www.facebook.com/codingcompetitions/hacker-cup/
 
 Problem Sets:
 
-Competitive Programming 4 UVA OJ Starred Problems: https://uhunt.onlinejudge.org/
+CP4 UVA OJ Starred Problems: https://uhunt.onlinejudge.org/
 
 CSES: https://cses.fi/problemset/list/
 
-USACO Training Pages
+USACO Training Pages https://train.usaco.org/
