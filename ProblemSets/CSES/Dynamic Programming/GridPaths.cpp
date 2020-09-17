@@ -3,6 +3,7 @@ using namespace std;
 
 #define ll long long
 #define mod (ll)1e9+7
+
 const int mxN = 1e3;
 char c[mxN][mxN];
 ll N, dp[mxN][mxN];
