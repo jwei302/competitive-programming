@@ -5,8 +5,6 @@ set hls
 set is
 set si
 
-colorscheme morning
-
 set nocompatible
 set exrc
 set mouse=a
@@ -27,6 +25,7 @@ set nowrap
 set cmdheight=2
 map <F1> :<C-U>!clear; g++ -o  %:r.out % -std=c++17<Enter>
 map <F2> :<C-U>!clear; ./%:r.out<Enter>
+
 
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
@@ -73,4 +72,4 @@ function MyDiff()
 	let &shellxquote=l:shxq_sav
   endif
 endfunction
-:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton.cpp
+:autocmd BufNewFile *.cpp 0r ~/.vim/templates/skeleton2.cpp
