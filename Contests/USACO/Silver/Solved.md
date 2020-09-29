@@ -1,39 +1,5 @@
 # Silver:
 
-## 2015-16:
-  ### December
-    - lightson (solved)
-    - highcard (solved)
-    - bcount (solved)
-  ### January 
-    - angry (solved)
-    - div7
-    - gates
-  ### February
-    - cbarn
-    - balancing
-    - pails
-   ### US Open
-    - reduce
-    - diamond (solved)
-    - closing (solved)
-## 2016-17:
-  ### December
-    - haybales (solved)
-    - citystate (solved)
-    - moocast (solved)
-  ### January 
-    - cowdance (solved)
-    - hps (solved)
-    - cowcode
-  ### February
-    - helpcross
-    - maxcross
-    - countcross
-   ### US Open
-    - pairup (solved)
-    - genomics
-    - where
 ## 2017-18:
   ### December
     - homework (solved)
@@ -51,5 +17,39 @@
     - sort
     - lemonade (solved)
     - multimoo (solved)
+## 2016-17:
+  ### December
+    - haybales (solved)
+    - citystate (solved)
+    - moocast (solved)
+  ### January 
+    - cowdance (solved)
+    - hps (solved)
+    - cowcode
+  ### February
+    - helpcross
+    - maxcross
+    - countcross
+   ### US Open
+    - pairup (solved)
+    - genomics
+    - where
+## 2015-16:
+  ### December
+    - lightson (solved)
+    - highcard (solved)
+    - bcount (solved)
+  ### January 
+    - angry (solved)
+    - div7
+    - gates
+  ### February
+    - cbarn
+    - balancing
+    - pails
+   ### US Open
+    - reduce
+    - diamond (solved)
+    - closing (solved)
 
     
