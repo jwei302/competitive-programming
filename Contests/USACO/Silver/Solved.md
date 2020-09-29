@@ -1,55 +1,72 @@
 # Silver:
 
-## 2017-18:
-  ### December
-    - homework (solved)
-    - measurement
-    - shuffle
+## 2018-19:
+  ### US Open
+    - leftout
+    - cowjump
+    - fenceplan (solved)
+  ### February
+    - herding
+    - painting
+    - revegetate
   ### January 
-    - lifeguards (solved)
-    - rental (solved)
-    - mootube (solved)
+    - planting
+    - perimeter (solved)
+    - mountain
+  ### December
+    - convention (solved)
+    - convention2
+    - mooyomooyo
+## 2017-18:
+  ### US Open
+    - sort
+    - lemonade (solved)
+    - multimoo (solved)
   ### February
     - reststops
     - snowboots
     - teleport
-   ### US Open
-    - sort
-    - lemonade (solved)
-    - multimoo (solved)
-## 2016-17:
-  ### December
-    - haybales (solved)
-    - citystate (solved)
-    - moocast (solved)
   ### January 
-    - cowdance (solved)
-    - hps (solved)
-    - cowcode
+    - lifeguards (solved)
+    - rental (solved)
+    - mootube (solved)   
+   ### December
+    - homework (solved)
+    - measurement
+    - shuffle
+## 2016-17:
+  ### US Open
+    - pairup (solved)
+    - genomics
+    - where
   ### February
     - helpcross
     - maxcross
     - countcross
-   ### US Open
-    - pairup (solved)
-    - genomics
-    - where
-## 2015-16:
-  ### December
-    - lightson (solved)
-    - highcard (solved)
-    - bcount (solved)
   ### January 
-    - angry (solved)
-    - div7
-    - gates
+    - cowdance (solved)
+    - hps (solved)
+    - cowcode
+  ### December
+    - haybales (solved)
+    - citystate (solved)
+    - moocast (solved)
+## 2015-16:
+  ### US Open
+    - reduce
+    - diamond (solved)
+    - closing (solved)
   ### February
     - cbarn
     - balancing
     - pails
-   ### US Open
-    - reduce
-    - diamond (solved)
-    - closing (solved)
+  ### January 
+    - angry (solved)
+    - div7
+    - gates
+   ### December
+    - lightson (solved)
+    - highcard (solved)
+    - bcount (solved)
 
     
