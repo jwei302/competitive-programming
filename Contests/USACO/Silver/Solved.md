@@ -1,5 +1,22 @@
 # Silver:
 
+## 2019-20:
+  ### US Open
+    - socdist
+    - cereal
+    - moop
+  ### February
+    - swap
+    - triangles
+    - clocktree
+  ### January 
+    - berries
+    - loan
+    - wormsort
+  ### December
+    - moobuzz
+    - meetings
+    - milkvisits
 ## 2018-19:
   ### US Open
     - leftout
