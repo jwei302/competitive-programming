@@ -1,5 +1,6 @@
 # Silver:
-
+Solved: 21
+Unsolved: 39
 ## 2019-20:
   ### US Open
     - socdist
