@@ -3,8 +3,8 @@
 ## 2017-18:
   ### December
     homework (solved)
-    - measurement
-    - shuffle
+    measurement
+    shuffle
   ### January 
     - lifeguards (solved)
     - rental (solved)
