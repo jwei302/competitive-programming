@@ -10,7 +10,7 @@ struct FenwickTree{
 		return sum;
 	}	
 	void upd(int i, ll v){
-		for(; i < N; i+=i&-i)
+		for(; i < (int)ft.size(); i+=i&-i)
 			ft[i]+=v;
 	}
 }
