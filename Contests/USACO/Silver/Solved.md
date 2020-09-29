@@ -1,19 +1,19 @@
-## Silver:
+# Silver:
 
-# 2015-16:
-  December
+## 2015-16:
+  ### December
     - lightson (solved)
     - highcard (solved)
     - bcount (solved)
-  January 
+  ### January 
     - angry (solved)
     - div7
     - gates
-  February
+  ### February
     - cbarn
     - balancing
     - pails
-   US Open
+   ### US Open
     - reduce
     - diamond (solved)
     - closing (solved)
