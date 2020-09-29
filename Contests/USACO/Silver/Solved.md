@@ -40,7 +40,7 @@ Unsolved: 39
   ### US Open
     - sort
     - lemonade (solved)
-    - multimoo (solved)
+    - multimoo
   ### February
     - reststops
     - snowboots
