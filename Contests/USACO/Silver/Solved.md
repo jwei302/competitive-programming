@@ -2,7 +2,7 @@
 
 ## 2017-18:
   ### December
-    - homework (solved)
+    homework (solved)
     - measurement
     - shuffle
   ### January 
