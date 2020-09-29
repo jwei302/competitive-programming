@@ -1,5 +1,8 @@
 # Bronze
 
+Solved: 46
+
+Unsolved: 14
 ## 2019-20:
   ### US Open
     - socdist1
