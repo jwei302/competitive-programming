@@ -1,8 +1,8 @@
 # Bronze
 
-Solved: 46
+Solved: 47
 
-Unsolved: 14
+Unsolved: 13
 ## 2019-20:
   ### US Open
     - socdist1
@@ -44,7 +44,7 @@ Unsolved: 14
     - family
   ### February
     - teleport (solved)
-    - hoofball
+    - hoofball (solved)
     - taming
   ### January
     - billboard (solved)
