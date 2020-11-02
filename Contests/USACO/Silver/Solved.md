@@ -1,10 +1,10 @@
 # Silver:
-Solved: 20
+Solved: 21
 
-Unsolved: 40
+Unsolved: 39
 ## 2019-20:
   ### US Open
-    - socdist
+    - socdist (solved)
     - cereal
     - moop
   ### February
