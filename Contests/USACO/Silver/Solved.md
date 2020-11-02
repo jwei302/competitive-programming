@@ -1,7 +1,7 @@
 # Silver:
-Solved: 21
+Solved: 23
 
-Unsolved: 39
+Unsolved: 37
 ## 2019-20:
   ### US Open
     - socdist (solved)
@@ -81,8 +81,8 @@ Unsolved: 39
     - pails
   ### January 
     - angry (solved)
-    - div7
-    - gates
+    - div7 (solved)
+    - gates (solved)
    ### December
     - lightson (solved)
     - highcard (solved)
