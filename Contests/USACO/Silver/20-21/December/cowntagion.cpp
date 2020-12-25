@@ -1,6 +1,4 @@
-/*
-greedy + dfs
-*/
+//greedy+dfs
 #include <bits/stdc++.h>
 using namespace std;
 
