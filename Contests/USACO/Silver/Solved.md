@@ -1,7 +1,11 @@
 # Silver:
 Solved: 23
-
 Unsolved: 37
+## 2020-21:
+  ### December
+    - Cowntagion
+    - Rectangular Pasture
+    - Stuck in a Rut
 ## 2019-20:
   ### US Open
     - socdist (solved)
