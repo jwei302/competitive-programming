@@ -3,9 +3,9 @@ Solved: 23
 Unsolved: 37
 ## 2020-21:
   ### December
-    - Cowntagion
+    - Cowntagion (solved)
     - Rectangular Pasture
-    - Stuck in a Rut
+    - Stuck in a Rut (solved)
 ## 2019-20:
   ### US Open
     - socdist (solved)
