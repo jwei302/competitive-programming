@@ -1,6 +1,6 @@
 # Silver:
-Solved: 23
-Unsolved: 37
+Solved: 25
+Unsolved: 38
 ## 2020-21:
   ### December
     - Cowntagion (solved)
