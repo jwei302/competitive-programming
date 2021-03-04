@@ -2,7 +2,7 @@
 using namespace std;
 
 #define ll long long
-vector<ll> dx = {1, -1, 0, 0}, dy = {0, 0, -1, 1};
+ll dx[] = {1, -1, 0, 0}, dy[] = {0, 0, -1, 1};
 
 const ll mxN = 1e2, mxM = 2e4;
 ll N, M, x, y, a, b, lights[mxN+1][mxN+1];
