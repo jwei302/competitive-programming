@@ -1,5 +1,5 @@
 # Competitive Programming
-Everything that I have for competitive programming. 
+My competitive programming documentation
 
 # Main Problem Sources:
 
